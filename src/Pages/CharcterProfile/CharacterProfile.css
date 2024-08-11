@@ -1,0 +1,74 @@
+.char-container {
+  /*background: url('public/assets/background.png') no-repeat center center; */
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.character-header {
+  background-color: #86cdf7c9; /* Adjust based on your design */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin-top: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.character-image {
+  width: 60%; /* Adjust size accordingly */
+  height: 60%;
+  margin-top: 20%;
+}
+
+.character-details h1 {
+  margin: 0;
+  color: #333;
+  font-size: 25px;
+}
+
+.notes-section {
+  margin-top: 20px;
+  width: 90%;
+}
+
+.notes-section textarea {
+  width: 100%; /* Make the textarea take up 100% of its container width */
+  height: 100px; /* Set a fixed height */
+  padding: 10px; /* Add some padding for text inside the textarea */
+  box-sizing: border-box; /* Include padding in the width and height */
+  border-radius: 5px; /* Optional: rounds the corners */
+  border: 1px solid #ccc; /* Optional: adds a border */
+  resize: none; /* Optional: prevents resizing */
+}
+
+.character-stats {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 20px;
+}
+
+
+.stat-item {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.character-stats ul {
+  list-style: none;
+  padding: 0;
+}
+
+.character-stats li {
+  background: #f0f0f0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}

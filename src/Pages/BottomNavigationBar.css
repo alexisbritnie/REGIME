@@ -1,0 +1,21 @@
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f187879a; /* Light gray background */
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .nav-link {
+    padding: 10px;
+    text-decoration: none;
+    color: #333; /* Dark gray text */
+    font-size: 16px;
+  }
+  
+  .nav-link.active {
+    color: #007bff; /* Highlight color for active tab */
+  }

@@ -1,0 +1,29 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    background: #f0f0f0; /* Placeholder, replace with your gradient or colors */
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.task-item.completed {
+    background: #d1e7dd; /* Light green background for completed tasks */
+}
+
+.task-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.task-name {
+    flex-grow: 1;
+}
+
+.toggle-task {
+    border: none;
+    background: none;
+    font-size: 20px;
+}

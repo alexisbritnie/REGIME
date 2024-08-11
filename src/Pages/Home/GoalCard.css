@@ -1,0 +1,28 @@
+.goal-card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  .goal-image {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the area without stretching the image */
+  }
+  
+  .goal-content {
+    padding: 15px;
+  }
+  
+  .goal-title {
+    margin: 0;
+    color: #333; /* Dark text color */
+  }
+  
+  .goal-description {
+    margin-top: 5px;
+    color: #666; /* Lighter text color */
+  }

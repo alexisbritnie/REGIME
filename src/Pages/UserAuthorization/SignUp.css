@@ -1,0 +1,54 @@
+.signup-form {
+  max-width: 600px;
+  min-width: 300px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #bc1bd1;
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.signup-form button:hover {
+  background-color: #0056b3;
+}
+ 
+.signup-form p {
+  margin-top: 20px;
+}
+
+.signup-form p button {
+  background: none;
+  color: blue;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+  /* Add media queries and other styles as necessary */
